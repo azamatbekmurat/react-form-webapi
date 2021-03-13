@@ -89,7 +89,7 @@ const DCandidates = ({ classes, ...props }) => {
                           <Button>
                             <DeleteIcon
                               color="secondary"
-                              onClick={() => onDelete(recort.id)}
+                              onClick={() => onDelete(record.id)}
                             />
                           </Button>
                         </ButtonGroup>
